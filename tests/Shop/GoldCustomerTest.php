@@ -9,7 +9,7 @@ use Shop\GoldCustomer;
 class GoldCustomerTest extends \PHPUnit_Framework_TestCase
 {
 
-    public function testIsSatisfiedByCustomer()
+    public function testIsMeaninglessAndGivesFullCoverage()
     {
         $customer = new Customer();
         $goldCustomer = new GoldCustomer();
